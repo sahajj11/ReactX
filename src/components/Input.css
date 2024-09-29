@@ -1,0 +1,25 @@
+.message-history {
+    max-height: 200px; /* Limit the height if necessary */
+    overflow-y: auto;  /* Enable scrolling if content overflows */
+    margin-bottom: 10px; /* Add space between messages and the form */
+    width: 100%;
+    text-align: left;
+  }
+  
+  .user-bubble {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block; /* Bubble adjusts to content width */
+    max-width: 80%; /* Prevent bubble from being too wide */
+    word-wrap: break-word; /* Break long words inside the bubble */
+    margin-bottom: 5px; /* Space between messages */
+    text-align: left;
+  }
+  
+  .message-wrapper {
+    display: flex;
+    justify-content: flex-end; /* Each message starts on a new line */
+    width: 100%; /* Ensure it takes the full container width */
+  }
+  
