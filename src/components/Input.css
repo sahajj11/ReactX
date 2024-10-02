@@ -22,4 +22,44 @@
     justify-content: flex-end; /* Each message starts on a new line */
     width: 100%; /* Ensure it takes the full container width */
   }
+
+  .input-container {
+    position: fixed; /* Ensures the input remains in place */
+    bottom: 40px; /* Adjust the position relative to the bottom */
+    
+    
+    width: 50%; /* Adjust width as per your layout */
+    z-index: 10; /* Ensure it's above other elements */
+  }
+  
+  .message-history {
+    margin-bottom: 100px; /* To make sure the messages don't overlap with the input */
+  }
+  
+  .response-container {
+    flex-grow: 1; /* Allow this section to take available vertical space */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    width: 80%; /* Adjust width as per layout */
+    max-height: calc(100vh - 200px); /* Ensures that it does not go beyond the screen height, adjust 200px to include your navbar + input height */
+    margin-top: 20px;
+    margin-bottom: 80px; /* To avoid overlapping the input section */
+  }
+
+
+  .code-output {
+    margin-top: 20px;
+  }
+
+  h5 {
+    color: #fff;
+  }
+
+  .message-wrapper {
+    margin-bottom: 10px;
+  }
+  
+  .message-history {
+    margin-bottom: 100px; /* Spacing for input container */
+  }
   

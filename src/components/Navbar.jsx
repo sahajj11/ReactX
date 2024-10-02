@@ -3,7 +3,8 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-    <nav class="navbar  navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar  navbar-expand-lg bg-body-tertiary
+    ">
   <div class="container-fluid d-flex align-items-center">
    <h3 className='mx-4 mb-0'>ReactX</h3>
 

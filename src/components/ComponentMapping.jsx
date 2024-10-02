@@ -1,3 +1,6 @@
+import Card from "../products/Card";
+
+
 const componentMapping = {
     card: {
       jsxCode: `
@@ -33,7 +36,8 @@ const componentMapping = {
       .card-text {
         font-size: 1em;
       }
-      `
+      `,
+      liveComponent:Card,
     }
   };
 
