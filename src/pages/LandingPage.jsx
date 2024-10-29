@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Input from '../components/Input';
 
+
 const LandingPage = () => {
   const [showHero, setShowHero] = useState(true);
 
@@ -21,3 +22,4 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+
